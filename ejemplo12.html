@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dev Master - Ejemplo 12  </title>
+</head>
+    <body>
+        <!-- pattern -->
+            <form action="" method="POST">
+                <label for="nombres">Nombres</label>
+                <input type="text" pattern="[A-Za-z\s]{1,30}" title="Ej.Katherine Gissela" required> <br>
+
+                <label for="apellidos">Apellidos</label>
+                <input type="text" pattern="[A-Za-z\s]{1,30}" title="Ej.Bendezu Loly" required><br>
+
+                <label for="dni">DNI:</label>
+                <input type="text" pattern="[0-9]{8}" required><br>
+
+                <label for="edad">Edad</label>
+                <input type="text" pattern="[0-9]{1,3}"><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+    </body> 
+</html>
