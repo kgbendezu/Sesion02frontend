@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dev Master - Ejemplo06 </title>
+</head>
+<body>
+    <form action="Formulario-exitoso.html" method="POST">
+        <!--hidden-->
+        <input type="hidden" value="1">
+
+        <label for="nombre">Nombres:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required><br>
+
+        <!--radio-->
+        <label for="sexo">Sexo:</label>
+        <input type="radio" name="sexo" checked>Hombre
+        <input type="radio" name="radio">Mujer <br>
+
+        <!--checkbox-->
+        <input type="checkbox" required> He leido y acepto los terminos. <br>
+        
+        <button type="submit">Registrar</button>
+
+    </form>
+</body> 
+</html>
